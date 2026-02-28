@@ -1,0 +1,90 @@
+/*styles.css*/
+
+.markdown-render {
+    display: block;
+    text-align: left !important;
+    color: #ffffff; /* Garante texto branco */
+}
+
+/* Títulos do Markdown em branco */
+.markdown-render h1, .markdown-render h2, .markdown-render h3, 
+.markdown-render h4, .markdown-render h5, .markdown-render h6 {
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+/* Parágrafos em cinza claro para legibilidade */
+.markdown-render p {
+    color: #adb5bd;
+    line-height: 1.7;
+}
+
+.markdown-render ul,
+.markdown-render ol {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 1.2rem;
+    color: #adb5bd;
+}
+
+.markdown-render li {
+    margin-bottom: 0.5rem;
+}
+
+/* Código com fundo cinza escuro (estilo terminal) */
+.markdown-render code {
+    background-color: #343a40; /* Cinza um pouco mais claro que o fundo */
+    color: #f8f9fa !important;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.markdown-render pre {
+    background-color: #1a1d20; /* Fundo mais escuro para blocos de código */
+    padding: 1.5rem;
+    border: 1px solid #3d4042;
+    border-radius: 0; /* Minimalista quadrado */
+    overflow-x: auto;
+}
+
+.markdown-render pre code {
+    padding: 0;
+    background-color: transparent;
+}
+
+/* Tabelas Minimalistas e Escuras */
+.markdown-render table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+
+.markdown-render th,
+.markdown-render td {
+    padding: 0.75rem;
+    border: 1px solid #3d4042;
+}
+
+.markdown-render thead th {
+    background-color: #343a40;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+/* Efeito Zebra para fundo escuro */
+.markdown-render tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Imagens responsivas dentro do readme */
+.markdown-render img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 1rem 0;
+}

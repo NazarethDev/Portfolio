@@ -1,0 +1,38 @@
+.hidden-element {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(30px);
+    transition: all 1s ease-out;
+}
+
+.show-element {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 40vh;
+}
+
+dl.row dd {
+    margin-bottom: 2rem;
+}
+
+dl.row dt {
+    text-align: left;
+    padding-top: 0.25rem; 
+}
+
+dl.row dd p {
+    margin-bottom: 0.2rem;
+}
+
+section {
+    min-height: auto;
+    padding-bottom: 2rem;
+}
