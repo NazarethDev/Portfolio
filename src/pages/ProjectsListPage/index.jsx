@@ -52,10 +52,12 @@ export default function ProjectsListPage() {
 
     return (
         <div className="container my-5 text-white">
-            <h2 className="mb-5 text-center fw-bold text-uppercase" style={{ letterSpacing: '2px' }}>
+            <h2 className="mb-1 text-center fw-bold text-uppercase" style={{ letterSpacing: '2px' }}>
                 Meus Projetos
             </h2>
-            
+            <p>Uma lista dos meus projetos públicos no GitHub, com dados vindos diretamente dele.</p>
+            <hr />
+
             <div className="projects-list">
                 {projectsList.map((project) => (
                     <div key={project.id} className="project-item py-5 text-center">
@@ -64,7 +66,7 @@ export default function ProjectsListPage() {
                             <h3 className="fw-bold mb-3 text-white">
                                 {project.name.replace(/-/g, ' ')}
                             </h3>
-                            
+
                             {/* Descrição em Cinza Claro */}
                             <p style={{ color: '#adb5bd' }} className="mb-3">
                                 {project.description || "Sem descrição disponível no GitHub."}
@@ -77,17 +79,17 @@ export default function ProjectsListPage() {
                                         {project.language}
                                     </span>
                                 )}
-                                
-                                <button 
+
+                                <button
                                     className="btn btn-outline-light px-5 mt-2 fw-semibold"
                                     onClick={() => handleViewDetails(project.name)}
-                                    //style={{ borderRadius: '0' }} // Estilo minimalista quadrad*
+                                //style={{ borderRadius: '0' }} // Estilo minimalista quadrad*
                                 >
                                     VER DETALHES
                                 </button>
                             </div>
                         </div>
-                        
+
                         {/* Linha Divisória em Branco com opacidade baixa */}
                         <hr className="mt-5 border-white opacity-25 mx-auto" style={{ width: '60%' }} />
                     </div>

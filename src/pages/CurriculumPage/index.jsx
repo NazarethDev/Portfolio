@@ -33,7 +33,7 @@ export default function CurriculumPage() {
                 <p className="lead">Full Stack Developer</p>
             </section>
 
-            <section className="hidden-element py-5 border-top text-start">
+            <section className="hidden-element py-5 border-top text-center">
                 <h2 className="mb-4">Minhas Stacks</h2>
                 <StacksComponent />
             </section>
@@ -53,10 +53,16 @@ export default function CurriculumPage() {
                 <AnotherCoursesComponent />
             </section>
 
-            <section className="hidden-element py-5 border-top">
+            <section className="hidden-element py-5 border-top text-start">
                 <div className="row">
-                    <div className="col-md-6"><LanguagesComponent /></div>
-                    <div className="col-md-6"><MyHobbiesComponent /></div>
+                    <div className="col-md-6">
+                        <h2 className="text-center mb-3">Idiomas</h2>
+                        <LanguagesComponent />
+                    </div>
+                    <div className="col-md-6">
+                        <h2 className="text-center mb-3">Meus hobbies</h2>
+                        <MyHobbiesComponent />
+                    </div>
                 </div>
             </section>
         </div>

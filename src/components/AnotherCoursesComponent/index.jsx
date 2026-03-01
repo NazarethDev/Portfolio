@@ -7,7 +7,7 @@ export default function AnotherCoursesComponent() {
                 <dt className="col-sm-3 fw-semibold">
                     jan/2026
                 </dt>
-                <dd className="col-sm-9">
+                <dd className="col-sm-9 mb-4">
                     <h5 className="mb-1 fw-bold">
                         AWS Cloud Practitioner Essentials
                     </h5>
@@ -19,10 +19,10 @@ export default function AnotherCoursesComponent() {
                 </dd>
 
                 {/* Meutudo */}
-                <dt className="col-sm-3 fw-semibold mt-4">
+                <dt className="col-sm-3 fw-semibold">
                     ago/2025 – out/2025
                 </dt>
-                <dd className="col-sm-9 mt-4">
+                <dd className="col-sm-9 mb-4">
                     <h5 className="mb-1 fw-bold">
                         Meutudo – Mobile Developer
                     </h5>
@@ -33,10 +33,10 @@ export default function AnotherCoursesComponent() {
                 </dd>
 
                 {/* ONE */}
-                <dt className="col-sm-3 fw-semibold mt-4">
+                <dt className="col-sm-3 fw-semibold">
                     ago/2024 – jan/2025
                 </dt>
-                <dd className="col-sm-9 mt-4">
+                <dd className="col-sm-9 mb-4">
                     <h5 className="mb-1 fw-bold">
                         ONE – Oracle Next Education – trilha de especialização em Java com Spring Boot
                     </h5>
@@ -49,20 +49,20 @@ export default function AnotherCoursesComponent() {
                 </dd>
 
                 {/* SQL Avançado */}
-                <dt className="col-sm-3 fw-semibold mt-4">
+                <dt className="col-sm-3 fw-semibold">
                     jan/2025
                 </dt>
-                <dd className="col-sm-9 mt-4">
+                <dd className="col-sm-9 mb-4">
                     <h5 className="mb-0 fw-bold">
                         Consultas SQL: avançando no SQL com MySQL
                     </h5>
                 </dd>
 
                 {/* SQL Básico */}
-                <dt className="col-sm-3 fw-semibold mt-4">
+                <dt className="col-sm-3 fw-semibold">
                     jan/2025
                 </dt>
-                <dd className="col-sm-9 mt-4">
+                <dd className="col-sm-9">
                     <h5 className="mb-0 fw-bold">
                         SQL com MySQL: manipule e consulte dados
                     </h5>

@@ -27,7 +27,7 @@ export default function ProfessionalExpirience() {
                 <dt className="col-sm-3 fw-semibold mt-4">
                     jun/2024 – ago/2025
                 </dt>
-                <dd className="col-sm-9 mt-4">
+                <dd className="col-sm-9">
                     <h5 className="mb-1 fw-bold">
                         Analista Customer Experience Bilíngue
                     </h5>
@@ -46,7 +46,7 @@ export default function ProfessionalExpirience() {
                 <dt className="col-sm-3 fw-semibold mt-4">
                     mar/2022 – abr/2024
                 </dt>
-                <dd className="col-sm-9 mt-4">
+                <dd className="col-sm-9">
                     <h5 className="mb-1 fw-bold">
                         Voluntário
                     </h5>

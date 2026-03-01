@@ -20,10 +20,10 @@ export default function AcademicExpirienceComponent() {
                 </dd>
 
                 {/* Técnico em Contabilidade */}
-                <dt className="col-sm-3 fw-semibold mt-4">
+                <dt className="col-sm-3 fw-semibold">
                     2020 – 2021
                 </dt>
-                <dd className="col-sm-9 mt-4">
+                <dd className="col-sm-9">
                     <h5 className="mb-1 fw-bold">
                         Técnico em Contabilidade
                     </h5>
