@@ -7,7 +7,7 @@ export default function HeaderComponent() {
                 <div className="btn-group" role="group">
 
                     <NavLink
-                        to="/curriculo"
+                        to="/"
                         className={({ isActive }) =>
                             `btn ${isActive ? "btn-light text-dark fw-semibold" : "btn-outline-light"}`
                         }
@@ -22,6 +22,14 @@ export default function HeaderComponent() {
                         }
                     >
                         Portfólio
+                    </NavLink>
+                    <NavLink
+                        to="/contato"
+                        className={({ isActive }) =>
+                            `btn ${isActive ? "btn-light text-dark fw-semibold" : "btn-outline-light"}`
+                        }
+                    >
+                        Contato
                     </NavLink>
 
                 </div>
