@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 import LanguagesComponent from "../../components/LanguagesComponents/index.jsx";
-import MyHobbiesComponent from "../../components/MyHobbiesComponent/index.jsx";
 import ProfessionalExpirience from "../../components/ProfessionalExpirienceComponent/index.jsx";
 import StacksComponent from "../../components/StacksComponent/index.jsx";
 import AcademicExpirienceComponent from "../../components/AcademicExpirienceComponent/index.jsx";
