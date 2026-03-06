@@ -54,17 +54,10 @@ export default function CurriculumPage() {
             </section>
 
             <section className="hidden-element py-5 border-top text-start">
-                <div className="row">
-                    <div className="col-md-6">
-                        <h2 className="text-center mb-3">Idiomas</h2>
-                        <LanguagesComponent />
-                    </div>
-                    <div className="col-md-6">
-                        <h2 className="text-center mb-3">Meus hobbies</h2>
-                        <MyHobbiesComponent />
-                    </div>
-                </div>
+                <h2 className="mb-4">Idiomas</h2>
+                <LanguagesComponent />
             </section>
+
         </div>
     )
 }
