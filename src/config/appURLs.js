@@ -1,4 +1,4 @@
-export const GITHUB_BASE_URL_ALL_REPOS_LIST = "https://api.github.com/users/NazarethDev/repos";
+export const GITHUB_BASE_URL_ALL_REPOS_LIST = "https://api.github.com/users/NazarethDev/repos?sort=pushed";
 
 export const GITHUB_BASE_URL_ONE_REPO = "https://api.github.com/repos/NazarethDev/";
 
