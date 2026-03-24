@@ -1,16 +1,21 @@
-# React + Vite
+# 🚀 Meu portfólio e currículo digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio profissional desenvolvido para consolidar e apresentar meus projetos, habilidades técnicas e trajetória acadêmica. O projeto consome a **API do GitHub** em tempo real para exibir meus repositórios, tanto backend quanto frontend.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** React.js, Vite, Bootstrap 5.
+- **Estilização:** CSS3 (Custom Dark Theme #212529).
+- **Consumo de API:** Axios (Integração com GitHub API).
+- **Renderização de Markdown:** React-Markdown com suporte a GFM (GitHub Flavored Markdown).
+- **Navegação:** React Router DOM.
 
-## React Compiler
+## ✨ Funcionalidades Principais
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Listagem Dinâmica:** Projetos buscados via API do GitHub, ordenados automaticamente pelos pushes mais recentes (`?sort=pushed`).
+- **Visualizador de README:** Página dedicada que converte e estiliza o README de cada repositório em tempo real.
+- **Currículo Digital:** Seções animadas de experiências profissionais e acadêmicas com Intersection Observer (Efeito Fade-in).
+- **Design Minimalista:** Interface focada em legibilidade com paleta monocromática (Black & White).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛜 Deploy
+O deploy da aplicação se encontra disponível para sua visualização no link [Nazareth portfolio](https://nazareth-portfolio.pages.dev/), realizado através da cloud [Cloudflare](https://www.cloudflare.com/pt-br/). Visite o site para ver em funcionamento!😊
