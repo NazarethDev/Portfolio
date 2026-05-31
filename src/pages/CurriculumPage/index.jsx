@@ -39,7 +39,7 @@ export default function CurriculumPage() {
             </section>
 
             <section className="hidden-element mb-1 curriculum-container">
-                <h2 className="mb-4">Principais projetos</h2>
+                <h2 className="mb-4">Principais Projetos</h2>
                 < MainProjectsComponent />
             </section>
 

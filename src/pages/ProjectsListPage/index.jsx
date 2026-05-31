@@ -1,16 +1,13 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { gitHubService } from "../../services/gitHubAPIService.js";
+import { useProjectNavigation } from "../../hooks/useProjectReadMeNavigation.js";
 
 export default function ProjectsListPage() {
     const [projectsList, setProjectsList] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const navigate = useNavigate();
 
-    const handleViewDetails = (repoName) => {
-        navigate("/readme", { state: { repoName } });
-    };
+    const { handleViewRepoDetails } = useProjectNavigation();
 
     async function fetchRepoList() {
         try {
@@ -62,17 +59,14 @@ export default function ProjectsListPage() {
                 {projectsList.map((project) => (
                     <div key={project.id} className="project-item py-5 text-center">
                         <div className="mx-auto" style={{ maxWidth: '800px' }}>
-                            {/* Título em Branco */}
                             <h3 className="fw-bold mb-3 text-white">
                                 {project.name.replace(/-/g, ' ')}
                             </h3>
 
-                            {/* Descrição em Cinza Claro */}
                             <p style={{ color: '#adb5bd' }} className="mb-3">
                                 {project.description || "Sem descrição disponível no GitHub."}
                             </p>
 
-                            {/* Linguagem e Botão Centralizados */}
                             <div className="d-flex flex-column align-items-center gap-3">
                                 {project.language && (
                                     <span className="badge border border-white text-white bg-transparent rounded-pill px-3 py-2">
@@ -82,15 +76,13 @@ export default function ProjectsListPage() {
 
                                 <button
                                     className="btn btn-outline-light px-5 mt-2 fw-semibold"
-                                    onClick={() => handleViewDetails(project.name)}
-                                //style={{ borderRadius: '0' }} // Estilo minimalista quadrad*
+                                    onClick={() => handleViewRepoDetails(project.name)}
                                 >
                                     VER DETALHES
                                 </button>
                             </div>
                         </div>
 
-                        {/* Linha Divisória em Branco com opacidade baixa */}
                         <hr className="mt-5 border-white opacity-25 mx-auto" style={{ width: '60%' }} />
                     </div>
                 ))}
