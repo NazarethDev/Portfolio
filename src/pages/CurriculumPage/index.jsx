@@ -5,6 +5,7 @@ import ProfessionalExpirience from "../../components/ProfessionalExpirienceCompo
 import StacksComponent from "../../components/StacksComponent/index.jsx";
 import AcademicExpirienceComponent from "../../components/AcademicExpirienceComponent/index.jsx";
 import AnotherCoursesComponent from "../../components/AnotherCoursesComponent/index.jsx";
+import MainProjectsComponent from "../../components/MainProjectsComponent/index.jsx";
 
 import "./styles.css";
 
@@ -35,6 +36,11 @@ export default function CurriculumPage() {
             <section className="hidden-element py-5 border-top text-center">
                 <h2 className="mb-4">Minhas Stacks</h2>
                 <StacksComponent />
+            </section>
+
+            <section className="hidden-element mb-1 curriculum-container">
+                <h2 className="mb-4">Principais projetos</h2>
+                < MainProjectsComponent />
             </section>
 
             <section className="hidden-element py-5 border-top text-start">
