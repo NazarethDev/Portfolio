@@ -31,7 +31,7 @@ export default function StacksComponent() {
                     <img src={reactIcon} alt="React" className="img-fluid stack-icon mb-2" />
                     <p className="fs-3 fw-semibold mb-1">React</p>
                     <p className="small text-muted mb-0">
-                        Interfaces modernas e responsivas, além de desenvolvimento mobile com React-Native.
+                        Interfaces modernas e responsivas, além de desenvolvimento mobile com React-Native e estilização com Bootstrap.
                     </p>
                 </div>
 
