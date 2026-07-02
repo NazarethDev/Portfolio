@@ -78,7 +78,7 @@ export default function ContactPage() {
                 {/* GitHub */}
                 <div className="col-12 col-md-3">
                     <a
-                        href="https://github.com/"
+                        href="https://github.com/NazarethDev"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-decoration-none text-reset"
