@@ -3,9 +3,26 @@ export default function ProfessionalExpirience() {
         <div className="professional-experience">
             <dl className="row">
 
+                {/*consultor de TI */}
+                <dt className="col-sm-3 fw-semibold">
+                    ago/2026 – atualmente
+                </dt>
+                <dd className="col-sm-9">
+                    <h5 className="mb-1 fw-bold">
+                        Consultor de TI
+                    </h5>
+                    <p className="mb-1 text-muted">
+                        ERP Suporte
+                    </p>
+                    <ul className="small mb-0 ps-3">
+                        <li>Suporte em uso de ERPs para diferentes níveis em empresas terceiras de diferetes segmentos</li>
+                        <li>Atendimento de usuários do sistema Benner</li>
+                    </ul>
+                </dd>
+
                 {/* Gerente de Operações */}
                 <dt className="col-sm-3 fw-semibold">
-                    Ago/2025 – Atual
+                    ago/2025 – ago/2026
                 </dt>
                 <dd className="col-sm-9">
                     <h5 className="mb-1 fw-bold">
